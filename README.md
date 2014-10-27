@@ -16,9 +16,9 @@ Example to get a report:
 
     java -jar jwscan.jar myfile.exe
 
-Example to dump at offset 0x500:
+Example to dump at offset 0x5c00:
 
-    java -jar jwscan.jar -d 0x500 myfile.exe
+    java -jar jwscan.jar -d 0x5c00 myfile.exe
 
 Example output
 
