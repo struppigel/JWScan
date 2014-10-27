@@ -14,28 +14,28 @@ General usage:
 
 Example to get a report:
 
-   java -jar jwscan.jar myfile.exe
+    java -jar jwscan.jar myfile.exe
 
 Example to dump at offset 0x500:
 
-   java -jar jwscan.jar -d 0x500 myfile.exe
+    java -jar jwscan.jar -d 0x500 myfile.exe
 
 Example output
 
-   JWScan 0.2.1 -- by Katja Hahn
+    JWScan 0.2.1 -- by Katja Hahn
    
-   scanning file ...
+    scanning file ...
    
-   file name: ../../portextestfiles/launch4jexe.exe
+    file name: ../../portextestfiles/launch4jexe.exe
    
-   Signatures found:
-     * Jar manifest (strong indication for embedded jar)
-     * Launch4j signature
-     * PZIP Magic Number (weak indication for embedded zip)
-     * Call to java.exe (strong indication for java wrapper)
-     * Call to javaw.exe (strong indication for java wrapper)
+    Signatures found:
+      * Jar manifest (strong indication for embedded jar)
+      * Launch4j signature
+      * PZIP Magic Number (weak indication for embedded zip)
+      * Call to java.exe (strong indication for java wrapper)
+      * Call to javaw.exe (strong indication for java wrapper)
    
-   ZIP/Jar offsets: 0x5c00
+    ZIP/Jar offsets: 0x5c00
   
 ### Build
   
