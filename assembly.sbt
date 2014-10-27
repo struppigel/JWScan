@@ -6,4 +6,4 @@ jarName in assembly := "jwscan.jar"
 
 test in assembly := {}
 
-mainClass in assembly := Some("com.github.katjahahn.jwscan.cli.JWScan")
+mainClass in assembly := Some("com.github.katjahahn.jwscan.cli.JWScanner")
