@@ -1,8 +1,8 @@
 name := "JWScan"
 
-version := "0.2.1"
+version := "0.2.3"
 
-resolvers += Resolver.mavenLocal
+//resolvers += Resolver.mavenLocal
 
-libraryDependencies += "com.github.katjahahn" % "portex" % "1.0.beta1.1"
+libraryDependencies += "com.github.katjahahn" % "portex_2.10" % "2.0.2"
 

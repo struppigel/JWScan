@@ -33,7 +33,7 @@ import java.io.File
  */
 object JWScanner {
 
-  private val version = """version: 0.2.1
+  private val version = """version: 0.2.3
     |author: Katja Hahn
     |last update: 27.Oct 2014""".stripMargin
 
